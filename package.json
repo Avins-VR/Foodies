@@ -4,13 +4,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
   "clean": "powershell Remove-Item -Recurse -Force .next; Remove-Item -Recurse -Force out",
-  "predeploy": "npm run clean && next build",
-  "deploy": "gh-pages -d out"
+  "build": "next build",
+  "deploy": "npm run clean && npm run build && gh-pages -d out"
 },
   "dependencies": {
     "bootstrap-icons": "^1.13.1",
