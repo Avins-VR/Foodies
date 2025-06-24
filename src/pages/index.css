@@ -1,0 +1,158 @@
+body{
+  background:#111;
+} 
+/* ===== Top Navigation Bar ===== */
+.header {
+  background-color: #111;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 18px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Logo (left side) */
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #ff3c3c;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Help (right side) */
+.help {
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 100px; 
+  color:white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.help:hover {
+  color: #a5a5a5;
+}
+.container {
+  font-size: 18px;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 120px 40px 40px 40px; /* Top padding increased to 120px to avoid overlap */
+  gap: 50px;
+}
+.left-section {
+  flex: 1;
+  min-width: 300px;
+  margin-top: 70px;
+  color: #fff;
+}
+
+/* Title */
+.left-section h1 {
+  color: #ff3c3c;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+/* Paragraph Spacing */
+.left-section p {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.left-section a {          /* Match the theme color */
+  text-decoration: none;    /* Remove underline */
+  font-weight: 500;
+  color:  #00cfff;
+}
+
+/* Section Titles */
+.left-section h2 {
+  margin-top: 40px;
+  color: #ff3c3c;
+}
+
+.left-section h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  
+}
+
+/* Address Styling */
+.address {
+  margin-top: 15px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* Get Directions Button */
+.directions {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #ff3c3c;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.right-section h2{
+   font-size: 28px;
+   color: #ff3c3c;
+}
+.right-section {
+  flex: 1;
+  min-width: 300px;
+  margin-top: 60px; /* Push this down to align nicely */
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Inputs */
+.right-section input,
+.right-section textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Submit Button */
+.right-section button {
+  margin-top: 15px;
+  background-color: #ff3c3c;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Terms & Notice */
+.terms {
+  font-size: 15px;
+  color: #555;
+  margin-top: 30px;
+
+}
