@@ -1,4 +1,4 @@
-import './index.css';
+import '../styles/index.css'; 
 import { useState } from 'react';
 
 function ContactPage() {
