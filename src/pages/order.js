@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import '../styles/App.css';
-
+import '../styles/App.css'; 
 function OrderPage() {
   const [formData, setFormData] = useState({
     name: '',
