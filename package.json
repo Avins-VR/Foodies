@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev": "next dev",
+  "start": "next start",
   "clean": "powershell Remove-Item -Recurse -Force .next; Remove-Item -Recurse -Force out",
   "build": "next build",
   "deploy": "npm run clean && npm run build && gh-pages -d out"
